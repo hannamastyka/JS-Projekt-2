@@ -1,27 +1,29 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
   margin: 0;
   padding: 0;
 }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: palevioletred;
+  justify-content: center;
+}
 
+.text {
+  color: black;
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
 h1 {
   text-align: center;
-  margin-top: 20px;
 }
-.convert {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-#result {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 18px;
+.submit {
+  border: 1px solid yellow;
+  padding: 5px 0;
+  background-color: white;
+  color: black;
 }
